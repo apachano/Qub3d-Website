@@ -1,0 +1,87 @@
+/*-------------------------*/
+/*-------Constants---------*/
+/*-------------------------*/
+@background-color:#FFFFFF;
+@text-color:#000000;
+@page-color:#2288DD;
+@page-width:100%;
+
+/*-------------------------*/
+/*-Mobile Screen Rendering-*/
+/*-------------------------*/
+
+@viewport{
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* Prefixed version requred  for IE10 */
+
+@-ms-viewport{
+    width: device-width;
+    zoom: 1.0;
+}
+
+body{
+	min-width: 250px;
+	text-align:center;
+	margin:0;
+	overflow-x:hidden;
+}
+
+
+/*-------------------------*/
+/*-------Navigation--------*/
+/*-------------------------*/
+
+nav{
+
+
+}
+
+.nav{
+
+}
+
+/*-------------------------*/
+/*---------Content---------*/
+/*-------------------------*/
+
+main{
+
+}
+
+section{
+	background-color:@background-color;
+	color:@text-color;
+	font-size:1.7em;
+	width:100%;
+}
+
+.invert{
+	background-color:@page-color;
+	color:@background-color;
+}
+
+/*-------------------------*/
+/*---------Cards-----------*/
+/*-------------------------*/
+.box{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.card{
+	width:250px;
+	height:350px;
+}
+
+.card-title{}
+
+.front{}
+
+.back{
+	visibility:hidden;
+}
+
